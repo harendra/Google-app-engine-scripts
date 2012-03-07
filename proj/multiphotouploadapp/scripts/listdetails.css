@@ -1,0 +1,109 @@
+.container {
+	top: 80px;
+	left: 50%;
+	width: 1048px;
+	margin-left: -524px;
+	position: absolute;
+}
+.birdcontainer {
+	width: 750px;
+	height: 80px;
+	background-color: #FAFCFD;
+	border: 1px;
+	border-style: outset;
+	border-color: #DCECFD;
+}
+.serialnumber {
+
+}
+.birdnamecountry {
+	width: 300px;
+	font-family: 'Lora', serif;
+	font-size: 11pt;
+}
+.observednumber {
+	width: 150px;
+	font-family: 'Junge', serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.notes {
+	width: 200px;
+	font-family: 'Junge', serif;
+	font-size: 10pt;
+	font-weight: bold;
+}
+.ifselected {width=200px;
+	font-family: 'Lora', serif;
+	border-right: 1px;
+}
+.observednumberfield {
+	width: 100px;
+	font-family: 'Lora', serif;
+}
+.photolinkbutton {
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2px;
+	font-size: 11pt;
+	font-weight: 400;
+	font-family: "MS Sans Serif";
+	/*text-shadow: -1px -1px 0 black;*/
+	text-align: center;
+	margin: 0 2px 2px 0;
+	padding: 5px;
+	border: 1px;
+	border-style: outset;
+	background-color: #4D90FE;
+	color: white;
+	/*height: 10px;*/
+}
+.specificlocationbutton {
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2px;
+	font-size: 11pt;
+	font-weight: 400;
+	font-family: "MS Sans Serif";
+	/*text-shadow: -1px -1px 0 black;*/
+	text-align: center;
+	margin: 0 2px 2px 0;
+	padding: 5px;
+	border: 1px;
+	border-style: outset;
+	background-color: #4D90FE;
+	color: white;
+	/*height: 10px;*/
+}
+#addbirdphoto {
+	cursor: pointer;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2px;
+	font-size: 11pt;
+	font-weight: 400;
+	font-family: "MS Sans Serif";
+	/*text-shadow: -1px -1px 0 black;*/
+	text-align: center;
+	margin: 0 2px 2px 0;
+	padding: 5px;
+	border: 1px;
+	border-style: outset;
+	background-color: #4D90FE;
+	color: white;
+	/*height: 10px;*/
+}
+
+#photocontainer{
+	
+}
+
+.disabled{
+	visibility:hidden;
+}
+

@@ -1,0 +1,38 @@
+application: birderz
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+builtins:
+ - appstats: on
+
+libraries:
+- name: jinja2
+  version: "2.6"
+
+handlers:
+- url: /(.*\.html)
+  mime_type: text/html
+  static_files: static/\1
+  upload: static/(.*\.html)
+  expiration: "1h"
+
+- url: /listdetails\.html
+  static_files: html/listdetails.html
+  upload: html/listdetails.html
+  
+
+- url: /scripts
+  static_dir: scripts
+
+- url: /images
+  static_dir: images
+  
+- url: /html
+  static_dir: html
+  
+- url: /.*
+  script: main.app
+
+  
